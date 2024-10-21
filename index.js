@@ -18,6 +18,7 @@ const users = [
 ];
 
 app.use(express.json());
+app.use(passport.initialize());
 
 // JWT strategy options
 const opts = {
